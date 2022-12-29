@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "couriers",
+  "info": {
+    "name": "courier"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "avatar": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "restaurant": {
+      "via": "courier",
+      "model": "restaurants"
+    }
+  }
+}

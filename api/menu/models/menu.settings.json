@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "name": "menu",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "calories": {
+      "type": "decimal"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "restaurant": {
+      "model": "restaurants",
+      "via": "menus"
+    }
+  }
+}
