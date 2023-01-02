@@ -35,6 +35,14 @@
     "menus": {
       "via": "restaurant",
       "collection": "menu"
+    },
+    "priceRating": {
+      "type": "richtext"
+    },
+    "categories": {
+      "collection": "categories",
+      "via": "restaurants",
+      "dominant": true
     }
   }
 }

@@ -28,8 +28,8 @@
       "type": "decimal"
     },
     "restaurant": {
-      "model": "restaurants",
-      "via": "menus"
+      "via": "menus",
+      "model": "restaurants"
     }
   }
 }

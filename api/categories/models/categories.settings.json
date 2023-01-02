@@ -16,6 +16,10 @@
     },
     "icon": {
       "type": "string"
+    },
+    "restaurants": {
+      "via": "categories",
+      "collection": "restaurants"
     }
   }
 }
